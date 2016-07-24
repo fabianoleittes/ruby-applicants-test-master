@@ -1,5 +1,6 @@
 class ModelsController < ApplicationController
   def index
+    @models = Model.all
     #search the models
     uri = URI("http://www.webmotors.com.br/carro/modelos")
 
