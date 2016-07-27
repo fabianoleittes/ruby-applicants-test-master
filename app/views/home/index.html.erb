@@ -1,12 +1,4 @@
-<form action="/models" method="GET">
-  <p>
-    <label>Escolha a Fabricante:</label>
-    <select name="webmotors_make_id">
-      <% @makes.each do |make| %>
-        <option value="<%= make.webmotors_id %>"><%= make.name %></option>
-      <% end %>
-    </select>
-  </p>
-
-  <input type="submit" value="Buscar modelos">
-</form>
+<%= form_tag(models_path, method: :get) do %>
+  <%= select_tag "webmotors_make_id", options_for_select(make_options) %>
+  <%= submit_tag "Buscar modelos", data: { disable_with: "Buscando..." } %>
+<% end %>
