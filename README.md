@@ -20,10 +20,9 @@ Obs: todo o cuidado e rigor adicional serão contados como pontos positivos.
 1. Get the code.
 
         % git clone git@github.com:fabianoleittes/ruby-applicants-test-master.git
-        
+
 2. Track branch
-        %  git fetch origin
-        %  git checkout -t origin/fl-refactoring
+        %  git fetch origin & git checkout -t origin/fl-refactoring
 
 3. Setup your environment.
 
