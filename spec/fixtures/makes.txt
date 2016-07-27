@@ -1,0 +1,17 @@
+HTTP/1.1 302 Found
+Cache-Control: private
+Cache-control: no-cache="set-cookie"
+Content-Type: text/html; charset=utf-8
+Date: Wed, 27 Jul 2016 04:42:57 GMT
+Location: http://www.webmotors.com.br/erro/paginaindisponivel?aspxerrorpath=/carro/marcas
+Set-Cookie: AWSELB=FBEB4F8D0A4EA85DD70F4AB212E2DE8B1D243194C82B97DCCBD542CC76B7D70C03D980C28BA7ABFB1FA324CD7934D5EC56F696CA5DFAECA620F087B46CAE01F4173A09BBD5;PATH=/;MAX-AGE=3600
+Vary: User-Agent,Accept-Encoding
+X-AspNetMvc-Version: 5.2
+X-Powered-By: ASP.NET
+X-UA-Compatible: IE=Edge
+Content-Length: 196
+Connection: keep-alive
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="http://www.webmotors.com.br/erro/paginaindisponivel?aspxerrorpath=/carro/marcas">here</a>.</h2>
+</body></html>
